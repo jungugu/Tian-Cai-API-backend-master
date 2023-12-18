@@ -1,0 +1,11 @@
+com\tiancaiapi\common\entity\UserInterfaceInfo.class
+com\tiancaiapi\common\common\PageRequest.class
+com\tiancaiapi\common\entity\dto\userInterfaceInfo\UserInterfaceInfoQueryRequest.class
+com\tiancaiapi\common\entity\InterfaceInfo.class
+com\tiancaiapi\common\service\InnerUserInterfaceInfoService.class
+com\tiancaiapi\common\constant\CommonConstant.class
+com\tiancaiapi\common\entity\dto\userInterfaceInfo\UserInterfaceInfoUpdateRequest.class
+com\tiancaiapi\common\service\InnerUserService.class
+com\tiancaiapi\common\entity\dto\userInterfaceInfo\UserInterfaceInfoAddRequest.class
+com\tiancaiapi\common\service\InnerInterfaceInfoService.class
+com\tiancaiapi\common\entity\User.class

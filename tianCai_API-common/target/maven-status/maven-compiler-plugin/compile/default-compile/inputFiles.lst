@@ -1,0 +1,11 @@
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\entity\User.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\entity\UserInterfaceInfo.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\service\InnerUserService.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\common\PageRequest.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\constant\CommonConstant.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\entity\InterfaceInfo.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\service\InnerInterfaceInfoService.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\service\InnerUserInterfaceInfoService.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\entity\dto\userInterfaceInfo\UserInterfaceInfoAddRequest.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\entity\dto\userInterfaceInfo\UserInterfaceInfoUpdateRequest.java
+G:\tianCaiAPI\tianCai_API-common\src\main\java\com\tiancaiapi\common\entity\dto\userInterfaceInfo\UserInterfaceInfoQueryRequest.java

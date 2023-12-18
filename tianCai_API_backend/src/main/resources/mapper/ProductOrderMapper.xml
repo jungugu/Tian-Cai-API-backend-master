@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nuomi.tianCaiAPI.mapper.ProductOrderMapper">
+
+    <resultMap id="BaseResultMap" type="com.nuomi.tianCaiAPI.model.entity.ProductOrder">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="userId" column="userId" jdbcType="BIGINT"/>
+        <result property="productId" column="productId" jdbcType="BIGINT"/>
+        <result property="orderNo" column="orderNo" jdbcType="VARCHAR"/>
+        <result property="orderName" column="orderName" jdbcType="VARCHAR"/>
+        <result property="total" column="total" jdbcType="BIGINT"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="payType" column="payType" jdbcType="VARCHAR"/>
+        <result property="productInfo" column="productInfo" jdbcType="VARCHAR"/>
+        <result property="fromData" column="fromData" jdbcType="VARCHAR"/>
+        <result property="addPoints" column="addPoints" jdbcType="INTEGER"/>
+        <result property="expirationTime" column="expirationTime" jdbcType="TIMESTAMP"/>
+        <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+        <result property="isDeleted" column="isDeleted" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,userId,productId,orderNo,
+        orderName,total,status,
+        payType,productInfo,fromData,
+        addPoints,expirationTime,createTime,
+        updateTime,isDeleted
+    </sql>
+
+    <select id="listOrderInWeek" resultType="com.nuomi.tianCaiAPI.model.entity.ProductOrder">
+        SELECT * FROM tiancaiapi.product_order WHERE TO_DAYS( NOW( ) ) - TO_DAYS(createTime) &lt;= 7 and status = 'SUCCESS'
+    </select>
+</mapper>

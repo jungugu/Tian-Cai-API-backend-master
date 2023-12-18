@@ -1,0 +1,9 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+tiancaiapi:
+  client:
+    access-key: 2d08ab00645f6522f29e51905da2c90a
+    secret-key: 48d32dcba01095e9a71373575029e511
+    host: localhost:8090/api
