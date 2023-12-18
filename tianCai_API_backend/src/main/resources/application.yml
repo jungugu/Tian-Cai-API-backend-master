@@ -21,13 +21,13 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tianCaiAPI
     username: root
-    password: nzc
+    password: xxxxx
   #  邮箱配置 todo 修改为自己的邮箱发送配置
   mail:
     host: smtp.qq.com
-    username: 3149441376@qq.com
-    password: sussuhnicepmdedg
-    emailFrom: 3149441376@qq.com
+    username: xxxxx
+    password: xxxxx
+    emailFrom: xxxxx
 
     properties:
       mail:
@@ -98,8 +98,8 @@ wx:
 
 tiancaiapi:
   client:
-    access-key: 8456e6dad50d2e3ee5677683cb670b1e
-    secret-key: 90bc4dfefd33745f0cf0ab09db8d756c
+    access-key: xxxxx
+    secret-key: xxxxx
 dubbo:
   application:
     name: dubbo-springboot-demo-provider
@@ -111,18 +111,18 @@ dubbo:
     address: nacos://localhost:8848
 oss:
   client:
-    endpoint: https://oss-cn-zhangjiakou.aliyuncs.com
-    access-key: LTAI5tKH1Jr36uqsB5eHZkGQ
-    secret-key: yMf4p8XWNsKT9WNq6bNtcU6xpcVax0
-    bucket: nuomi-image-hosting
+    endpoint: xxxxx
+    access-key: xxxxx
+    secret-key: xxxxx
+    bucket: xxxxx
 
 # 支付宝支付配置
 alipay:
-  appId: 9021000129648591
-  sellerId: 2088721017097493
+  appId: xxxxx
+  sellerId: xxxxx
   # 本地测试用ngrok内网穿透，这个内网穿透地址，可以修改为自己的。上线修改为后端的接口地址即可
   notifyUrl: http://kqft4a.natappfree.cc/api/productOrder/notify/order
-  returnUrl: http://localhost:8000/account/center
+  returnUrl: xxxxx
   sandbox: true
-  ali-pay-public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4iTRKRD7t86WmJS2qjRgRWymjCuXtywkrPLd881rkc9INkAcODuP8xsLsy9eImAirWleclT9JyAIpdfq4bBukKGOG44wSbxMnocdXBdiBd2Qb1s7AsQZJnNg5dFwGwu1eXRvU8sLJGlAGU2raXidixmIc5CwicdRfjdES8DyI23hD6isH0inkcpBtXU1BEu4R4ZjQoEpp4a/xOCz3jDeIDQuhZAQoZoS3cP/2jpnTN62shKKGSQdd8ZJsgwDjxFW2Xew5Ggd/3Ru3rekHs6m5mfcb9AyU6pWG7GaBFxBdUYxhybvYnpwjH0vEWe5ZCbwj2oVDgc9D+LJeDYqxigMhQIDAQAB
-  private-key: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/uqK+5Iv9DCqc+ToCVFs8prfUVnmNQMn4Vi9oKsRWaemi12p0XlcZBeoJyu/cKmx/OZS1Eou+ad4pxjYESQSeqvii1LZor6B8XuPN67f3y9mJP74sw6ywzkkFhDu2SBLPSw2YjvTtiSVu49B9XjAWKxHvVD4dYZgn4NCyBTvBHv+SFXoKPN43izqufnjwr3Fga9qPhbHsSNz/K1J56F5cGxCTmt5vM9NSKvmQ39n9N3w7mfENX14srV83lte01NHdnr30L7xWOvj8g3JVbjuiAjxoVBH33Kd/8kqriE1H5zLM2w4T3QpRPiWO/3E58d4EqQoIzPsur5+EStQWKaCtAgMBAAECggEAajLp5IzZkZ/EltBhtlqdctnx5zbC+1/Qv7KVbcCKokbmN+HUQILlAaJKAYScGbqSAGKXoTiVmTIw8bitwO/lFDIlqKPkKdZmMZ2p1yzi6OnMI/7fyxHTvNd2kQyuuofvi0zKSh+dQVl/F44utNKQFidjNsrV4RZm3mfjkUfe0lfwz2El0IOqwaegeU8aOL2dqh4ITj8eoSx2G2wbgxxxxcaaPn9K57UG18fgvbgfnTijXS+TFzEpSPtabRbX7G/FGKDPS4DgYpOFbtUISDWsaXMHAtDf+QuPdDRARjDj6mnt6lf9n84chBhk47amrAQUPryqoeeUvG6r9fi8+z1hbQKBgQDdlZrPM2Pr75ss/d/tgU6qGYxXQBM7MoFd8CQgpqyob57kFbraCgAm1JBeNpx9gYt3t/oo7+7sUie+AamfDrMZpZjaBaWPeoCIbrVmNdrGwQCMGcSAyE28Nc7JpXjUa4swl0jxuARIJmycekOWv0RVkRnyr465UT40/XXNTluJjwKBgQDdgfSY/E/mbl6EdKEzGAue8o9Mf8Pzw+fQeDH8zjgvdXwGixuwicnzgASKX7VV8X2KM/TbWtrH3E8JQxAZ4rDPm6Y8Tp3zQp6pQ8oP5QBNVGI46He5rgVK/SjWz1d3e8Rp0UaYu1zkbNWTkuZjpyLoOIpHbuRLqtroCxcZL868AwKBgQCpJAu54jaB4LKI03ndJ/lOKpZP+58ybskFVcueCNx+7kVRQa0RxtR6z4MsB2/I9dvqFMul+BBe4A9qIIbD3UqlZxyYP/sy3IXEnw1k6fMICEdMqlavHzcHVeN1VRQ4wabL/o81xAuwr3P0tfdl2LZmwo4WDCBcIUHk3RzRDOEezQKBgD71B9NPq1oANqcJCyQdingD0wzYJ5aqMMIE15hV+IwspTKq6RTVJOwrj57QsxaZS6gzOj36ZcJ2cJReVj41OzHWuHndknEolzXeyZiY6uwPttcb46OHvYNhzvC2/9I7AElfLOSOJEncURvfndHnGDnOkCbbctG63vsi487J0sWHAoGBAMElULAANnjl6pfIbuK43hMNJwxXRSfn0DvRYO4Uq4sDZItCHSnUangF5ko6w07RNh+C9f1h0S/RkU+NRNOojj/XjervywTuXvLBLky7KstUZXDIibeSElXrJzeaxoz5ASTn4PiqEfAugOf78apGT2sTDWUdEPMxS6hlgb9/Ozjc
+  private-key: xxxxx
+  ali-pay-public-key: xxxx

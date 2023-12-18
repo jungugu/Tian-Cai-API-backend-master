@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tianCai_API_backend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tianCai_API_frontend" vcs="Git" />
   </component>
 </project>
